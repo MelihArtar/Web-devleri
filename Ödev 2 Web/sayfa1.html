@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Üye Kayıt Formu</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="/js/scritp.js"></script>
+</head>
+<body>
+
+<h2>Üye Kayıt Formu</h2>
+<form id="kayitFormu" action="sayfa2.html" method="post">
+    <label for="eposta">E-posta:</label><br>
+    <input type="email" id="eposta" name="eposta" required><br>
+    
+    <label for="ad">Ad:</label><br>
+    <input type="text" id="ad" name="ad" required><br>
+    
+    <label for="soyad">Soyad:</label><br>
+    <input type="text" id="soyad" name="soyad" required><br>
+    
+    <label for="cepTelefonu">Cep Telefonu:</label><br>
+    <input type="tel" id="cepTelefonu" name="cepTelefonu" required><br>
+    
+    <label for="sifre">Şifre:</label><br>
+    <input type="password" id="sifre" name="sifre" required><br>
+    
+    <label for="sifreTekrar">Şifre Tekrar:</label><br>
+    <input type="password" id="sifreTekrar" name="sifreTekrar" required><br><br>
+    
+    <input type="submit" value="Kaydet">
+  </form>
+
+</body>
+</html>
